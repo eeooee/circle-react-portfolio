@@ -1,0 +1,92 @@
+#footerCircle{
+    background: #A3A3A3;
+    border-radius: 50%;
+    width: 100vh;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: -15%;
+    z-index: -9;
+}
+
+#footerCircleContainer{
+  background: #F9F9F9;  
+  overflow: hidden;
+  position: relative;
+  height:30vh;
+  z-index: -10;
+}
+
+
+.circle{
+    background: #A2A2A2;
+    position: fixed;
+    right:5%;
+    top:15%;
+    
+    border-radius:50%;
+    width:10vh;
+    height: 10vh;
+    margin-top:-10vh;
+    z-index: 9999;
+}
+
+.transform{
+    -webkit-transition: all 2s ease;  
+    -moz-transition: all 2s ease;  
+    -o-transition: all 2s ease;  
+    -ms-transition: all 2s ease;  
+    transition: all 2s ease;
+}
+
+.transform-active{
+    top: 0;
+    right: -50%;
+    width: 120vh;
+    height: 120vh;
+}
+
+.navContent{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 120vh;
+}
+
+li{
+    list-style: none;
+    font-family: 'Overpass Mono', monospace;
+    font-weight:300;
+    font-size: calc(1vw + 1.5vh + .5vmin);
+    color: #F9F9F9;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#footerText{
+
+    font-size: calc(.75vw + 1vh + .2vmin);
+    margin: 5%;
+    padding-top:10%;
+    width:50%;
+}
+
+@media only screen and (max-device-width: 768px) {
+    
+.transform-active{
+    top: 0;
+    right: -130%;
+    width: 120vh;
+    height: 120vh;
+}
+
+#footerCircle{
+    left: -60%;
+}
+
+}

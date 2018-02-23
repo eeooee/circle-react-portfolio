@@ -1,0 +1,58 @@
+#aboutContainer{
+    display:flex;
+    flex-direction: column;
+    height:60vh; 
+    width: 100%; 
+    background-color:#F9F9F9;
+}
+
+#skillsContainer{
+    
+    display:flex;
+    flex-direction: column;
+    height:40vh; 
+    width: 100%; 
+    background-color:#F9F9F9;
+}
+
+#projectContainer{
+    
+    display:flex;
+    flex-direction: column;
+    height:50vh; 
+    width: 100%; 
+    background-color:#F9F9F9;
+}
+
+h1{
+    
+    font-family: 'Overpass Mono', monospace;
+    font-size: calc(5vw + 5vh + .5vmin);
+    color: #F9F9F9;
+    margin: 0px;
+}
+h2{
+
+    display: inline;
+    position:absolute; 
+    
+    font-family: 'Overpass Mono', monospace;
+    font-weight: 300;
+    font-size: calc(2vw + 2vh + .5vmin);
+    color: #A2A2A2;
+    margin: 0px;
+    margin: 5%;
+}
+
+p{
+    font-family: 'Khula', sans-serif;
+    font-size:calc(2vw + 1vh + .2vmin); 
+}
+.innerText{
+    display:flex;
+     justify-content:center;
+      align-items:center;
+      flex-grow: 100;
+      padding:10%;
+      
+}
