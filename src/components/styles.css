@@ -41,7 +41,7 @@
 
 .transform-active{
     top: 0;
-    right: -50%;
+    right: -30%;
     width: 120vh;
     height: 120vh;
 }
@@ -72,7 +72,7 @@ a{
 
     font-size: calc(.75vw + 1vh + .2vmin);
     margin: 5%;
-    padding-top:10%;
+    padding-top:5%;
     width:50%;
 }
 
