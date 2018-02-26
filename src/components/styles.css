@@ -76,7 +76,7 @@ a{
     width:50%;
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 1024px) {
     
 .transform-active{
     top: 0;
@@ -85,8 +85,13 @@ a{
     height: 120vh;
 }
 
+#footerCirclecontainer{
+    height:15vh;
+}
 #footerCircle{
     left: -60%;
 }
+
+
 
 }

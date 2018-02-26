@@ -5,8 +5,8 @@ import '../styles.css';
 const ProjectContainer = () => (
   <div id="projectContainer">
        <h2>Projects</h2>
-       <div className = "innerText">
-       <p >Here they are </p>
+       <div className = "imageHolder">
+       <div className ="squareImageContainer" id="imageLeft"></div><div className ="squareImageContainer" id="imageRight"></div>
        </div>
       </div>
       

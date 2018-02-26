@@ -63,12 +63,12 @@ hamburgerIcon = () => {
 toggleOpen = (e) => {
 
 if(this.state.menuOpen){
-  this.setState({menuOpen:false});
   this.setState({circleClass:'circle transform '});
+  this.setState({menuOpen:false});
 }
 else{
-  this.setState({menuOpen:true});
   this.setState({circleClass:'circle transform transform-active'});
+  this.setState({menuOpen:true});
 }
 }
 
