@@ -6,11 +6,11 @@ import Skills from '../containers/Skills.js';
 import ProjectContainer from '../containers/projects/ProjectContainer.js';
 
 const Home = () => (
-    <div>
+    <div >
          <Splash/>
          <About/>
          <Skills/>
-         <ProjectContainer/>
+         {/* <ProjectContainer/> */}
         
     </div>
 

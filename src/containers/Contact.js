@@ -9,14 +9,15 @@ class Contact extends Component {
         
       <h2>get in touch</h2>  
         <div className="innerText">
-        <div className="contact">
         <form method="POST" action="https://formspree.io/epiphany.compton@gmail.com">
 
-  <input type="email" name="email" placeholder="Your email"/>
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
+        <label for="email">email address</label>
+  <input className="contactInput" type="email" name="email" placeholder="yourname@email.com"/>
+  
+  <label for="message">message</label>
+  <textarea className="contactText" name="message" placeholder="Hi!  Just wanted to say hello. "></textarea>
+  <button className="contactButton" type="submit">Send</button>
 </form>
-</div>
       </div>
       </div>
     );
