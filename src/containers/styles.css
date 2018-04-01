@@ -1,3 +1,8 @@
+
+.contact{
+    display: flex;
+    flex-direction: column;
+}
 #aboutContainer{
     display:flex;
     flex-direction: column;
@@ -10,7 +15,6 @@
     
     display:flex;
     flex-direction: column;
-    height:40vh; 
     width: 100%; 
     background-color:#F9F9F9;
 }
@@ -23,6 +27,14 @@
     background-color:#F9F9F9;
 }
 
+.fullPageContainer{
+    
+    display:flex;
+    flex-direction: column;
+    height:70vh; 
+    width: 100%; 
+    background-color:#F9F9F9;
+}
 .imageHolder{
 
 display:flex;
@@ -32,15 +44,45 @@ padding:20vh 20vh 0vh 20vh;
 }
 
 .squareImageContainer{
-    width:45%;
+    width:50vh;
+    height:50vh;
 }
 
-.squareImageContainer:after{
+/* .squareImageContainer:after{
     
   content: "";
   display: block;
   padding-bottom: 100%;
+} */
+
+.squareImage{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
+
+.pills{
+
+}
+
+.pill{
+    color: #00B7C3;
+    font-family: 'Overpass Mono', monospace;
+    font-size: calc(.5vw + 1vh + .6vmin);
+    border: 2px #00B7C3 solid;
+    border-radius: 50px;
+    padding: .3em .5em;
+    line-height:2.5em;
+}
+.pill:hover{
+    color:#f9f9f9;
+    background-color:#00b7c3;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
 #imageLeft{
     
 margin-bottom:10vh;
@@ -73,6 +115,16 @@ h2{
     margin: 5%;
 }
 
+h3{
+    
+        
+        font-family: 'Overpass Mono', monospace;
+        font-weight: 300;
+        font-size: calc(1vw + 1vh + .5vmin);
+        color: #000000;
+        margin: 2% 0% 2% -5%;
+    }
+
 p{
     font-family: 'Khula', sans-serif;
     font-size:calc(1vw + 2vh + .2vmin); 
@@ -81,6 +133,7 @@ p{
     display:flex;
      justify-content:center;
       align-items:center;
+      flex-direction:column;
       flex-grow: 100;
       padding:15%;
       
